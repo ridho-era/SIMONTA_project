@@ -1,0 +1,31 @@
+﻿# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Rahasia dan berkas lokal
+.env
+.env.*
+!.env.example
+
+# Berkas unggahan privat
+media/
+backend/media/
+
+# Editor dan OS
+.vscode/*
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+backend/celerybeat-schedule*
