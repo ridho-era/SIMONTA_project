@@ -6,7 +6,7 @@ import { FullPageLoader } from "../components/Loader";
 import { secondaryButtonClass } from "../components/ui";
 import { homePath } from "../config/navigation";
 
-const ADMIN_URL = (import.meta.env.VITE_ADMIN_URL as string | undefined) ?? "http://127.0.0.1:8000/admin/";
+const ADMIN_URL = (import.meta.env.VITE_ADMIN_URL as string | undefined) ?? "/admin/";
 
 export default function AdminNoticePage() {
   const { user, isLoading, logout } = useAuth();
